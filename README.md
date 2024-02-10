@@ -7,6 +7,7 @@ Currently supported features:
 * Firebase Database
 * Firestore
 * Functions
+* Hosting
 
 # Usage
 
