@@ -11,6 +11,12 @@ Currently supported features:
 
 # Usage
 
+# Install Requirements
+```bash
+cd project
+npm i
+```
+
 ## Build and Run
 
 ```bash
