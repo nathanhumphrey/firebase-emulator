@@ -12,7 +12,7 @@ data_dir=emulators.data
     firebase emulators:start \
         --import $data_dir \
         --project "$firebase_project_id" \
-        --only functions,firestore,auth,database
+        --only functions,firestore,auth,database,hosting
 ) &
 firebase_pid=$!
 

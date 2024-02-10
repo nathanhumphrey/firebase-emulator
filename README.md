@@ -21,7 +21,8 @@ By default it will:
 * run Cloud Functions http://localhost:5001/
 * run Firestore at http://localhost:8080/
 * run Realtime Database at http://localhost:9000/
-* run Firebase Auth Emulator at http://localhost:9099/
+* run Firebase Auth at http://localhost:9099/
+* run Firebase Hosting at http://localhost:5000/
 * use `demo-project` as project ID
 
 # Configuration

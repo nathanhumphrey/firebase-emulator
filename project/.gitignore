@@ -9,6 +9,8 @@ firebase-debug.*.log*
 
 # Firebase Emulators data dir
 emulators.data/
+# Project specific hosting directory
+build/
 
 # Firebase cache
 .firebase/
