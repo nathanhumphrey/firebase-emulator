@@ -8,8 +8,16 @@ Currently supported features:
 - Firebase Database
 - Firestore
 - Functions
+- Hosting
 
 # Usage
+
+# Install Requirements
+
+```bash
+cd project
+npm i
+```
 
 ## Build and Run
 
