@@ -3,10 +3,11 @@
 Project provides Docker container to run Firebase Emulator locally.
 
 Currently supported features:
-* Firebase Auth
-* Firebase Database
-* Firestore
-* Functions
+
+- Firebase Auth
+- Firebase Database
+- Firestore
+- Functions
 
 # Usage
 
@@ -17,19 +18,25 @@ docker compose up
 ```
 
 By default it will:
-* run Emulator UI at http://localhost:4000/
-* run Cloud Functions http://localhost:5001/
-* run Firestore at http://localhost:8080/
-* run Realtime Database at http://localhost:9000/
-* run Firebase Auth at http://localhost:9099/
-* run Firebase Hosting at http://localhost:5000/
-* use `demo-project` as project ID
+
+- run Emulator UI at http://localhost:4000/
+- run Cloud Functions http://localhost:5001/
+- run Firestore at http://localhost:8080/
+- run Realtime Database at http://localhost:9000/
+- run Firebase Auth at http://localhost:9099/
+- run Firebase Hosting at http://localhost:5000/
+- use `demo-project` as project ID
 
 # Configuration
 
 Configuration is done by updating values in:
-* `project/firebase.json`
-* `serve.sh`
+
+- `project/firebase.json`
+- `serve.sh`
+
+## Testing
+
+Before running the test scripts in `package.json`, create a `project/coverage/` directory (functions test will fail without it).
 
 # Firebase (optional)
 
