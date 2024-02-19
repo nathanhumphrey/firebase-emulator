@@ -12,7 +12,7 @@ Currently supported features:
 
 # Usage
 
-# Install Requirements
+## Install Requirements
 
 ```bash
 cd project
