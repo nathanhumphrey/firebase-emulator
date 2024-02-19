@@ -17,6 +17,9 @@ Currently supported features:
 ```bash
 cd project
 npm i
+
+cd functions
+npm i
 ```
 
 ## Build and Run
@@ -52,7 +55,7 @@ Get building with Firebase by following the official docs - [https://firebase.go
 
 ## Init project
 
-If you have existing firebase project, you may want to import rules & dataset
+If you have an existing firebase project, you may want to import rules & dataset
 first.
 
 To do so, you need to have [firebase tool][1] to be installed.

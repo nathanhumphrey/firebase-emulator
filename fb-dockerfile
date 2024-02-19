@@ -1,6 +1,6 @@
-FROM node:20-alpine
+FROM node:16-alpine
 
-ENV FIREBASE_TOOLS_VERSION=13.0.3
+ENV FIREBASE_TOOLS_VERSION=11.29.1
 RUN yarn global add firebase-tools@${FIREBASE_TOOLS_VERSION} && \
   yarn cache clean && \
   firebase -V && \
